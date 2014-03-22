@@ -469,7 +469,7 @@
   <project path="packages/apps/KylinModSetupWizard" name="KylinMod/android_packages_apps_KylinModSetupWizard" />
   <project path="packages/apps/PackageInstaller" name="KylinMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/QuickSearchBox" name="KylinMod/android_packages_apps_QuickSearchBox" />
-  <project path="packages/apps/Settings" name="KylinMod/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="KyLinDevTeam/android_packages_apps_Settings" />
   <project path="packages/apps/Torch" name="KylinMod/android_packages_apps_Torch" />
   <project path="packages/apps/UnifiedEmail" name="KylinMod/android_packages_apps_UnifiedEmail" />
   <!-- KylinMod Packages Apps End -->
