@@ -224,6 +224,7 @@
   <project path="external/ppp" name="CyanogenMod/android_external_ppp" remote="cm" revision="cm-11.0" />
   <project path="external/proguard" name="CyanogenMod/android_external_proguard" groups="pdk-java" remote="cm" revision="cm-11.0" />
   <project path="external/protobuf" name="CyanogenMod/android_external_protobuf" groups="pdk" remote="cm" revision="cm-11.0" />
+  <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" remote="cm" revision="cm-11.0" />
   <project path="external/qemu" name="CyanogenMod/android_external_qemu" remote="cm" revision="cm-11.0" />
   <project path="external/qemu-pc-bios" name="CyanogenMod/android_external_qemu-pc-bios" remote="cm" revision="cm-11.0" />
   <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="cm" revision="cm-11.0" />
