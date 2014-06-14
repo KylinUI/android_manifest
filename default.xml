@@ -14,6 +14,9 @@
 		   
   <remote  name="kylin"
            fetch="https://github.com/" />
+		   
+  <remote  name="th"
+           fetch="https://github.com/TheMuppets" />
 
   <default revision="refs/heads/kitkat"
            remote="kylin"
@@ -179,7 +182,6 @@
   <project path="external/libnl-headers" name="CyanogenMod/android_external_libnl-headers" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="external/libogg" name="CyanogenMod/android_external_libogg" remote="cm" revision="cm-11.0" />
   <project path="external/libpcap" name="CyanogenMod/android_external_libpcap" remote="cm" revision="cm-11.0" />
-  <project path="external/libphonenumber" name="CyanogenMod/android_external_libphonenumber" remote="cm" revision="cm-11.0" />
   <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" remote="cm" revision="cm-11.0" />
   <project path="external/libpng" name="CyanogenMod/android_external_libpng" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="external/libppp" name="CyanogenMod/android_external_libppp" remote="cm" revision="cm-11.0" />
@@ -340,6 +342,7 @@
   <project path="libcore" name="CyanogenMod/android_libcore" remote="cm" revision="cm-11.0" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" remote="cm" revision="cm-11.0" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
+  <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="cm" revision="cm-11.0" />
@@ -348,11 +351,13 @@
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" remote="cm" revision="cm-11.0" />
+  <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" remote="cm" revision="cm-11.0" />
+  <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" remote="cm" revision="cm-11.0" />
@@ -466,17 +471,14 @@
   <!-- KylinMod External End -->
 
   <!-- KylinMod Packages Apps Start -->
-  <project path="packages/apps/Apollo" name="KylinMod/android_packages_apps_Apollo" />
   <project path="packages/apps/Browser" name="KylinMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calendar" name="KylinMod/android_packages_apps_Calendar" />
   <project path="packages/apps/Calculator" name="KylinMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Contacts" name="KylinMod/android_packages_apps_Contacts" />
   <project path="packages/apps/ContactsCommon" name="KylinMod/android_packages_apps_ContactsCommon" />
-  <project path="packages/apps/DeskClock" name="KylinMod/android_packages_apps_DeskClock" />
   <project path="packages/apps/Dialer" name="KylinMod/android_packages_apps_Dialer" />
   <project path="packages/apps/Email" name="KylinMod/android_packages_apps_Email" />
   <project path="packages/apps/InCallUI" name="KylinMod/android_packages_apps_InCallUI" />
-  <project path="packages/apps/LockClock" name="KylinMod/android_packages_apps_LockClock" />
   <project path="packages/apps/Mms" name="KylinMod/android_packages_apps_Mms" />
   <project path="packages/apps/KylinModLauncher" name="KylinMod/android_packages_apps_KylinModLauncher" />
   <project path="packages/apps/KylinModScreenRecorder" name="KylinMod/android_packages_apps_KylinModScreenRecorder" />
@@ -501,6 +503,7 @@
 
   <!-- KylinMod System Start -->
   <project path="system/core" name="KylinMod/android_system_core" groups="pdk" />
+  <project path="external/libphonenumber" name="KylinMod/android_external_libphonenumber" />
   <!-- KylinMod System End -->
 
   <!-- Devices Paired Start -->
