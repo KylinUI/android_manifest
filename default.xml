@@ -14,9 +14,6 @@
 		   
   <remote  name="kylin"
            fetch="https://github.com/" />
-		   
-  <remote  name="th"
-           fetch="https://github.com/TheMuppets" />
 
   <default revision="refs/heads/kitkat"
            remote="kylin"
