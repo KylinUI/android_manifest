@@ -15,6 +15,9 @@
   <remote  name="kylin"
            fetch="https://github.com/" />
 
+  <remote  name="th"
+           fetch="https://github.com/" />
+
   <default revision="refs/heads/kitkat"
            remote="kylin"
            sync-c="true"
